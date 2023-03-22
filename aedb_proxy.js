@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 
-const SHARD_ADDRESSES = ['http://localhost:3000', 'http://localhost:3001'];
+const SHARD_ADDRESSES = ['http://localhost:3001', 'http://localhost:3002'];
 const SHARD_COUNT = SHARD_ADDRESSES.length;
 
 const app = express();
